@@ -1,11 +1,11 @@
 package com.example.hogwarts.data
 
-data class Wizards (
+data class Wizard (
     val id: String = "",
     val name: String = "",
     val gender: String = "",
     val house: String = "",
-    val wand: Wand,
+    val wandId: String = "",
     val patronous: String = "",
     val actor: String = "",
     val image: String = ""
